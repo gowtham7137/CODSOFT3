@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PORTFOLIO</h1>
+            <p>Hello, I'm Gowtham. Web Developer.</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="your-image.jpg" alt="Your Image">
+            <p>I am an enthusiastic final year IT student with a foundational knowledge in programming languages like Python and C++.I am eager to
+                apply my skills of web development in a dynamic IT environment. I am very much motivated to contribute to innovative projects and I
+                wish to continue learnings in a collaborative team setting</p>
+        </div>
+    </section>
+    
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">Data Structures</div>
+            <div class="skill">HTML </div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+
+        </div>
+    </section>
+    
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="projects-list">
+            <div class="project">
+                <h3>Table Reservation system</h3>
+                <p>The objective of this project is to build a restaurant management system to manage restaurant activities like making a reservation or
+                    cancelling a reservation in an easy and convenient manner.The system should show number of tables and seats and client can reserve
+                    the table based upon their interest.The system is also supposed to refresh periodically and change the availability accordingly.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Traffic Visualizer</h3>
+                <p>The objective of project is to develop Traffic Visualization Application.The application aims to provide visualization of the traffic for the
+                    user’s data.The system is created using various Web development tools and data structures tools like graph search algorithms.The
+                    system should show the traffic analysis between the path between the places for effective traffic management.
+                </p>
+            </div>
+            <div class="project">
+                <h3>Multiplex Movie Scheduling</h3>
+                <p>The aim of this project is to build the movie scheduling application.The goal is to allocate movies to screens and time slots, taking into
+                    account seat availability and customer demand.This application is used to maximize the profits for the multiplex owners.The application
+                    is user friendly and can provide optimized results.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    
+    <section id="resume" class="container">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download  resume</a>
+    </section>
+    
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Gowtham. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
